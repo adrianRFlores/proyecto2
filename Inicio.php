@@ -7,7 +7,7 @@
         <center><h2>¡Escribe y lee desde 0!</h2></center>
         <fieldset>
             <legend>Inicia sesión</legend>
-                <form action="index.php" method="POST">
+                <form action="Inicio.php" method="POST">
                     <label>Usuario</label>
                     <input type="text" name="usuario" required>
                     <br><br>
@@ -20,7 +20,7 @@
         <h4>¿Aún no tienes cuenta?<br> ¡Créala aquí!</h4>
         <fieldset>
             <legend>Crea tu cuenta</legend>
-            <form action="index.php" method="POST">
+            <form action="Inicio.php" method="POST">
                 <label>Nombre de Usuario</label>
                 <input type="text" name="usuario" required>
                 <br><br>
@@ -30,5 +30,8 @@
                 <input type="submit" value="Crear" name="bt2" >
             </form>
         </fieldset>
+		<?php
+		
+		?>
     </body>
 </html>
