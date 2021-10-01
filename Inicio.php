@@ -14,7 +14,7 @@
                     <label>Contraseña</label>
                     <input type="text" name="contra" required>
                     <br><br>
-                    <input type="submit" value="Ingresar" name="bt1" >
+                    <input type="submit" value="Ingresar" name="sesion" >
                 </form>
         </fieldset>
         <h4>¿Aún no tienes cuenta?<br> ¡Créala aquí!</h4>
@@ -27,11 +27,27 @@
                 <label>Contraseña</label>
                 <input type="text" name="contra" required>
                 <br><br>
-                <input type="submit" value="Crear" name="bt2" >
+                <input type="submit" value="Crear" name="cuenta" >
             </form>
         </fieldset>
 		<?php
+		if(isset($_POST["sesion"])){
+			$servername="localhost"; 
+			$username="";
+			$password="";
+			$dbname="";
+			$conn= new mysqli($servername,$username, $password,$dbname);
+			if(!$conn){
+				die("Conexión defectuosa: " . mysqli_connect_error());
+			}
+			echo "Conexión exitosa <br>";
+			$usuario = $_POST["usuario"];
+			$contraseña = $_POST["contra"];
+		}
 		
+		if(isset($_POST["cuenta"])){
+			
+		}
 		?>
     </body>
 </html>
