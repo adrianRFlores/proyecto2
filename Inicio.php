@@ -31,22 +31,31 @@
             </form>
         </fieldset>
 		<?php
+		
+		function conectar($servername, $username, $pass, $db){
+			$conn= new mysqli($servername,$username, $pass,$db);
+			if(!$conn){
+				die("Conexión defectuosa: " . mysqli_connect_error());
+			}
+			echo "Conexión exitosa <br>";
+		}
+		
 		if(isset($_POST["sesion"])){
 			$servername="localhost"; 
 			$username="";
 			$password="";
 			$dbname="";
-			$conn= new mysqli($servername,$username, $password,$dbname);
-			if(!$conn){
-				die("Conexión defectuosa: " . mysqli_connect_error());
-			}
-			echo "Conexión exitosa <br>";
+			conectar($servername, $username, $password, $dbname);
 			$usuario = $_POST["usuario"];
 			$contraseña = $_POST["contra"];
 		}
 		
 		if(isset($_POST["cuenta"])){
-			
+			$servername="localhost"; 
+			$username="";
+			$password="";
+			$dbname="";
+			conectar($servername, $username, $password, $dbname);
 		}
 		?>
     </body>
