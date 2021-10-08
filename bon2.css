@@ -1,0 +1,57 @@
+body{
+	margin: 0;
+	font-family: sans-serif;
+	  background: url(bg.jpg);
+   background-repeat: no-repeat;
+  background-size: cover;
+
+}
+header{
+	width: 100%;
+	background: black;
+	height: 200px;
+	top: 0;
+}
+header h1{
+	height: 100px;
+	position: absolute;
+	top: 100px;
+	left: 800px;
+	font-family: impact;
+	font-size: 40px;
+	color: white;
+}
+nav{
+	position: absolute;
+	margin: 270px auto 0;
+	width: 620px;
+	height: 500px;
+	background: black;
+	border-radius: 10px
+	font-size 0;
+top: 20px;
+left: 650px;
+}
+
+footer{
+
+	background: black;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+
+}
+footer h1{
+	color: white;
+}
+nav h1{
+	color: white;
+}
+nav p{
+	color: white
+}
+nav button{
+	position: absolute;
+	top: 465px;
+	left: 270px;
+}
