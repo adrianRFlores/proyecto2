@@ -1,5 +1,5 @@
 <?php
 	echo "<script>
-		window.location.replace('Login.html');
+		window.location.replace('Login.php');
 		</script>";
 ?>
