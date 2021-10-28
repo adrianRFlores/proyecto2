@@ -39,6 +39,8 @@ ________(saber: futuro) cuál es el tratamiento indicado.
 </p>
 <button type="input">Revisar</button>
 </nav>
+
+
 </body>
 
 </html>

@@ -20,27 +20,36 @@ header h1{
 	font-family: impact;
 	font-size: 40px;
 	color: white;
+
 }
 nav{
-	position: relative;
+	position: absolute;
 	margin: 270px auto 0;
-	width: 590px;
-	height: 130px;
-	background: black;
-	border-radius: 10px
-	font-size 0;
+	width: 570px;
+	background: #191919;
+	transform: translate(-50%,-50%);
+	padding: 40px;
+	top: 30%;
+	left: 50%;
+	text-align: center;
 
 }
+
+
 nav p a{
 
-	font-size: 15px;
-	color: white;
-	line-height: 50px;
-	text-align: center;
-	display: inline-block;;
-	z-index: 1;
-	left: 20px
-	text-transform: uppercase;
+border: 0;
+background: none;
+display: block;
+margin: 20px auto;
+text-align: center;
+outline: none;
+color: white;
+transition: 0.25s;
+border: 2px solid red;
+padding: 14px 10px;
+outline: none;
+border-radius: 24px;
 
 }
 a:nth-child(1) 
@@ -70,15 +79,4 @@ a:nth-child(6)
 }
 a:hover{
 	color: red;
-}
-footer{
-
-	background: black;
-	width: 100%;
-	position: absolute;
-	bottom: 0;
-
-}
-footer h1{
-	color: white;
 }
