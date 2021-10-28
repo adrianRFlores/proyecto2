@@ -2,8 +2,8 @@
 <meta charset="utf-8">
 <html>
 <head>
-	<title>Pronunciación</title>
-	<link rel="stylesheet" href="css/style.css">
+	<title>Abecedario</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 </head>
 <body class="img" style="background-image: url(images/bg.jpg);">
@@ -44,7 +44,7 @@
 			<div class="row justify-content-center">
 				<div class="col-md-6 col-lg-4">
 					<div class="login-wrap p-0">
-			      		<br><br><br><br><font size="10" color="white">Pronunciación</font><br>
+			      		<br><br><br><br><font size="10" color="white">Abecedario</font><br>
 			      	</div>
 			      </div>
 			</div>
@@ -59,26 +59,31 @@
 							</td>
 						</tr>
 						<tr>
-							<td align="center" width="400">
-								<a href="Abecedario.php">
-								<img src="images/Abc.jpg" style="border-radius: 15px;" height="150"/></a>
-								<br><font size="5" color="white">Abecedario</font>
+							<td>
+								<div>
+									<center>
+										<video poster="Images/ColoresCaratula.jpg" style="width: 30%;" controls="" muted="">
+											<source src="Videos/Colores.mp4" type="video/mp4">
+												Su navegador no puede reproducir este tipo de videos
+										</video>
+									</center>
+								</div>
 							</td>
-							<td  align="center" width="400">
-								<a href="Numeros.php">
-								<img src="images/123.jpg" style="border-radius: 15px;" height="150"/></a>
-								<br><font size="5" color="white">Números</font>
-							</td>
-							<td  align="center" width="400">
-								<a href="Colores.php">
-								<img src="images/Colores.png" style="border-radius: 15px;" height="150"/></a>
-								<br><font size="5" color="white">Colores</font>
+						</tr>
+						<tr>
+							<td>
+								<br><br>
+								<center>
+									<input type="text" id="texto" placeholder="¿Quieres saber como se pronuncia algo? Escribelo aquí">
+								<input type="button" name="hablar" id="hablar" value="Decir">
+								</center>
 							</td>
 						</tr>
 					</table>
 				</td>
 			</tr>
 		</table>
-	</section>	 
+	</section>
+<script src="javascript/script.js"></script>	 
 </body>
 </html>
