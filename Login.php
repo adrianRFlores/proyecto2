@@ -14,7 +14,7 @@
 			<table>
 				<tr>
 					<td>
-						<a href="Menu.php">
+						<a href="Login.php">
 							<img src="images/Logo.png" style="border-radius: 15px;"  height="100"/>
 						</a>
 					</td>
