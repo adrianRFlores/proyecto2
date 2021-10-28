@@ -36,7 +36,7 @@
 		           	<button type="submit" class="form-control btn btn-primary submit px-3" name="btn">Ingresar</button>
 		          </div>
 							<div class="text-md-center">
-								<a href="Registro.html" style="color: #fff">Registrate aquí</a>
+								<a href="Registro.php" style="color: #fff">Registrate aquí</a>
 							</div>
 		        </div>
 			    </div>
