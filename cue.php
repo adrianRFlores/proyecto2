@@ -77,12 +77,10 @@ pies antes de entrar a la casa de la señora Araña.
 Felizmente el señor Ciempiés terminó su tarea y todos los invitados pudieron entrar a la
 casa y participar en la fiesta, que estuvo de lo más entretenida.
 </p>
-<p></p>
-<a href="com.php"><button type="input">Comprobación</button></a>
+<a href="com.php">
+	<button type="input" class="form-control btn btn-primary submit px-3" name="btn" >Comprobación</button>
 
+</a>
 </nav>
-
-
 </body>
-
 </html>
