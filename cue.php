@@ -39,14 +39,14 @@
       	</div>
     </nav>
 <nav style="position: absolute;
-	margin: 270px auto 0;
+	margin: 300px auto 0;
 	width: 700px;
 	background: #191919;
 	transform: translate(-50%,-50%);
 	padding: 40px;
 	top: 30%;
 	left: 50%;
-	text-align: center;
+	text-align: justify;
 	color: white;">
 <h1 align="center">La invitación de la señora araña</h1>	
 <p>
