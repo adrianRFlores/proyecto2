@@ -5,27 +5,21 @@ ob_start();
 $_SESSION['coduser'] = "";
 $_SESSION['nomuser'] = "";
 $_SESSION['instituto'] = "";
+
+$usuariosql = "root";
+$clave = "";
+$servidor = "localhost";
+$base = "aprende";
+$clase = new MainLogin($servidor, $usuariosql, $clave, $base);
 class MainLogin
 {
-	private $usuariosql = "root";
-  	private $clave = "";
-  	private $servidor = "localhost";
-  	private $base = "aprende";
-  
-	function __construct(){
-		echo "<script>
-			alert('HOLAAAAAAAAAAAAAAAAAAAA');
-			</script>";
-		$conexion = mysqli_connect($servidor, $usuariosql, $clave, $base);
-		login($conexion);
-	}
 
-	function login($cone){
+	function login ($cone){
 		if (isset($_POST['btn'])) {
 			$codigo = $_POST['user'];
-			$contraseña = $_POST['contra'];
+			$contras = $_POST['contra'];
 		}
-		if ($codigo !="" && $contraseña != "") {
+		if ($codigo !="" && $contras != "") {
 			//Revisa que el codigo existe
 			$cons= "SELECT CodigoUsuario from usuario";
 	    	$x = mysqli_query($cone, $cons);
@@ -44,18 +38,24 @@ class MainLogin
 			else
 			{
 				//Revisar que la contraseña sea correcta
-				$cons= "SELECT Contraseña from usuario where CodigoUsuario = $codigo";
+				$cons = "SELECT Contraseña from usuario where CodigoUsuario = $codigo";
 	    		$x2 = mysqli_query($cone, $cons);
-	   			$band2 = false;
-	    		while (($a2 = mysqli_fetch_array($x2)) && !$band2)
+	    		$resultado = $x2 -> fetch_row();
+	    		$band2 = false;
+	    		if ($resultado[0] == $contras) $band2 = true;
+	    		
+	   			
+	    		/*while (($a2 = mysqli_fetch_array($x2)) && !$band2)
 				{
-					if ($a2['Contraseña'] == $con) $band2 = true;
-				}
+					if ($a2['Contraseña'] == $cons) $band2 = true;
+					echo "<script>alert('".$a2."');</script>";
+				}*/
+				
 				if (!$band2)
 				{
 					echo "<script>
 					alert('La contraseña es incorrecta');
-					window.location.replace('################################################');
+					window.location.replace('#');
 					</script>";
 				}
 				else
@@ -69,6 +69,7 @@ class MainLogin
 					$inst = "SELECT CodigoInstituto from usuario where CodigoUsuario = $codigo";
 					$x4 = mysqli_query($cone, $inst);
 					$a4 = mysqli_fetch_array($x4);
+
 					//Seleccionar el nombre
 					if ($f3 == 'Maestro') {
 						$nomb = "SELECT Nombre from maestro where CodigoMaestro = $codigo";
@@ -83,7 +84,7 @@ class MainLogin
 						}
 						else{
 							if ($f3 == 'Administrador') {
-								$nomb = "SELECT Nombre from alumno where CodigoAdministrador = $codigo";
+								$nomb = "SELECT Nombre from administrador where CodigoAdministrador = $codigo";
 								$x5 = mysqli_query($cone, $nomb);
 								$a5 = mysqli_fetch_array($x5);
 							}
@@ -123,9 +124,17 @@ class MainLogin
 		else{
 			echo "<script>
 			alert('Rellene todos los campos');
-			window.location.replace('login.php');
+			window.location.replace('#');
 			</script>";
 		}
 	}
+		function __construct(String $servidor, String $usuariosql, String $clave, String $base){
+		/*echo "<script>
+			alert('HOLAAAAAAAAAAAAAAAAAAAA');
+			</script>";*/
+		$conexion = mysqli_connect($servidor, $usuariosql, $clave, $base);
+		$this->login($conexion);
+	}
+
 }
 ?>
