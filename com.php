@@ -46,26 +46,28 @@
 	padding: 40px;
 	top: 30%;
 	left: 50%;
+	text-align: left;
 	color: white;">
 <h1 align="center">Responda las siguientes preguntas:</h1>
 
 <p>1. ¿Qué característica es propia de todos los ciempiés?</p>
-<input type="radio" id="cb1" name="cb1" value="0"><label>A. Que son amables</label><br>
-<input type="radio" id="cb1" name="cb1" value="0"><label>B. Que se limpian todos los pies.</label><br>
-<input type="radio" id="cb1" name="cb1" value="0"><label>C. Que son desagradables.</label><br>
-<input type="radio" id="cb1" name="cb1" value="1"><label>D. Que tienen cien pies.</label><br>
+<input style = "width:5%" type="radio" id="cb1" name="cb1" value="0"><label>A. Que son amables</label><br>
+<input style = "width:5%" type="radio" id="cb1" name="cb1" value="0"><label>B. Que se limpian todos los pies.</label><br>
+<input style = "width:5%" type="radio" id="cb1" name="cb1" value="0"><label>C. Que son desagradables.</label><br>
+<input style = "width:5%" type="radio" id="cb1" name="cb1" value="1"><label>D. Que tienen cien pies.</label><br>
+
 
 <p>2. ¿Por qué los animales no podían entrar a la casa de la señora Araña?</p>
-<input type="radio" id="cb2" name="cb2" value="0"><label>A. Porque la Araña no había abierto la puerta.</label><br>
-<input type="radio" id="cb2" name="cb2" value="0"><label>B. Porque la Araña no los había invitado a la fiesta.</label><br>
-<input type="radio" id="cb2" name="cb2" value="1"><label>C. Porque el Ciempiés se demoraba mucho en limpiar sus pies.</label><br>
-<input type="radio" id="cb2" name="cb2" value="0"><label>D. Porque la Araña no había limpiado bien su casa.</label><br>
+<input style = "width:5%" type="radio" id="cb2" name="cb2" value="0"><label>A. Porque la Araña no había abierto la puerta.</label><br>
+<input style = "width:5%" type="radio" id="cb2" name="cb2" value="0"><label>B. Porque la Araña no los había invitado a la fiesta.</label><br>
+<input style = "width:5%" type="radio" id="cb2" name="cb2" value="1"><label>C. Porque el Ciempiés se demoraba mucho en limpiar sus pies.</label><br>
+<input style = "width:5%" type="radio" id="cb2" name="cb2" value="0"><label>D. Porque la Araña no había limpiado bien su casa.</label><br>
 
 <p>3. ¿Por qué la araña se puso a llorar? </p>
-<input type="radio" id="cb3" name="cb3" value="1"><label>A. Porque creyó que sus invitados no habían venido a la fiesta.</label><br>
-<input type="radio" id="cb3" name="cb3" value="0"><label>B. Porque el ciempiés se demoró mucho en limpiarse los pies.</label><br>
-<input type="radio" id="cb3" name="cb3" value="0"><label>C. Porque la fiesta estuvo muy aburrida.</label><br>
-<input type="radio" id="cb3" name="cb3" value="0"><label>D. Porque invitó a pocos animales. </label><br>
+<input style = "width:5%" type="radio" id="cb3" name="cb3" value="1"><label>A. Porque creyó que sus invitados no habían venido a la fiesta.</label><br>
+<input style = "width:5%" type="radio" id="cb3" name="cb3" value="0"><label>B. Porque el ciempiés se demoró mucho en limpiarse los pies.</label><br>
+<input style = "width:5%" type="radio" id="cb3" name="cb3" value="0"><label>C. Porque la fiesta estuvo muy aburrida.</label><br>
+<input style = "width:5%" type="radio" id="cb3" name="cb3" value="0"><label>D. Porque invitó a pocos animales. </label><br>
 <a href="#"><button type="input" class="form-control btn btn-primary submit px-3" name="btn">Revisar</button></a>
 </nav>
 </body>
