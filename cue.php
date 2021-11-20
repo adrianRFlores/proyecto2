@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head>
 	<title>La invitación de la señora araña</title>
@@ -39,14 +39,14 @@
       	</div>
     </nav>
 <nav style="position: absolute;
-	margin: 300px auto 0;
+	margin: 270px auto 0;
 	width: 700px;
 	background: #191919;
 	transform: translate(-50%,-50%);
 	padding: 40px;
 	top: 30%;
 	left: 50%;
-	text-align: justify;
+	text-align: center;
 	color: white;">
 <h1 align="center">La invitación de la señora araña</h1>	
 <p>
@@ -77,9 +77,14 @@ pies antes de entrar a la casa de la señora Araña.
 Felizmente el señor Ciempiés terminó su tarea y todos los invitados pudieron entrar a la
 casa y participar en la fiesta, que estuvo de lo más entretenida.
 </p>
+<p></p>
+
 <a href="com.php">
 	<button type="input" class="form-control btn btn-primary submit px-3" name="btn" >Comprobación</button>
 </a>
 </nav>
+
+
 </body>
+
 </html>
