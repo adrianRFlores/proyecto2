@@ -25,8 +25,7 @@
 		      		<h3 class="mb-4 text-center">Crear Cuenta</h3>
 		     			<div class="form-group">
 		     				<select name="tex1" class="form-control">
-
-						<option value="" class="form-control">Institutos...</option>
+						<option value="" class="form-control" style=" color: #000 !important;">Institutos...</option>
 						<?php
 							$usuario = "root";
 							$clave = "";
