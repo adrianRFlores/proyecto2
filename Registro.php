@@ -42,8 +42,8 @@
 	              <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
 	            </div>
 	            <div class="form-group">
-	              <input id="password-field" type="password" class="form-control" placeholder="Confirmar Contraseña" name="text6" required>
-	              <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+	              <input id="password-field2" type="password" class="form-control" placeholder="Confirmar Contraseña" name="text6" required>
+	              <span toggle="#password-field2" class="fa fa-fw fa-eye field-icon toggle-password"></span>
 	            </div>
 	            <div class="form-group">
 	            	<button type="submit" class="form-control btn btn-primary submit px-3" name="btn">Crear Cuenta</button>
