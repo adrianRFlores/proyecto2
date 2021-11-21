@@ -48,18 +48,21 @@
 	left: 50%;
 	text-align: center;
 	color: white;">
-<h1 align="center">Reglas ortográficas</h1>	
-<nav>
 
-<a href="com.php">
-<p><a href="byv.php">Reglas de la B y V </a><p/>
-<p><a href="mayus.php">Reglas de uso de mayúsculas </a></p>
-<a href="k.php">Reglas de uso de la k </a>
+<h1 align="center">Reglas de uso de tílde</h1>	
 <p>
-	<a href="tilde.php">Reglas de uso de la tílde </a></p>
-<p><a href="#">Signos de puntuación </a></p>
-<p><a href="#">Reglas de S, C y Z </a>
+	1. Las palabras agudas llevan tilde cuando terminan en -n, en -s o en vocal: balón, compás, café, colibrí, bonsái; pero si terminan en -s precedida de otra consonante, se escriben sin tilde: zigzags, robots, tictacs. Tampoco llevan tilde las palabras agudas que terminan en -y, pues esta letra se considera consonante a efectos de acentuación: guirigay, virrey, convoy, estoy.
 </p>
+<p>
+	2. Las palabras llanas (graves) llevan tilde cuando no terminan en -n, en -s o en vocal: clímax, hábil, tándem. También se acentúan cuando terminan en -s precedida de otra consonante: bíceps, cómics, fórceps; y cuando terminan en -y, pues esta letra se considera consonante a efectos de acentuación: póney, yóquey.
+</p>
+<p>
+	3. Las palabras esdrújulas y sobresdrújulas siempre llevan tilde: cántaro, mecánica, cómetelo, llévesemelo.
+</p>
+
+<a href="tildep.php">
+	<button type="input" class="form-control btn btn-primary submit px-3" name="btn" >Comprobación</button>
+
 </a>
 </nav>
 
