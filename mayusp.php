@@ -1,11 +1,12 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-	<title>La invitación de la señora araña</title>
+	<title>Comprobación lectora la invitación de la señora araña</title>
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 </head>
 <body class="img" style="background-image: url(images/cuentos.jpg);">
+	
 	<nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #000000;">
       	<div class="container">
 	        <a class="navbar-brand" href="MenuUsuario.php">
@@ -39,49 +40,32 @@
       	</div>
     </nav>
 <nav style="position: absolute;
-	margin: 270px auto 0;
+	margin: 300px auto 0;
 	width: 700px;
 	background: #191919;
 	transform: translate(-50%,-50%);
 	padding: 40px;
 	top: 30%;
 	left: 50%;
-	text-align: center;
+	text-align: left;
 	color: white;">
+<h1 align="center">Seleccione si la oración utiliza de forma correcta las mayúsculas:</h1>
+<form action="pr.php" method="POST">
+<p>1. Ese Carro es rojo. </p>
+<input style = "width:5%" type="radio" id="cb1" name="cb1" value="0"><label>A. Verdadero</label><br>
+<input style = "width:5%" type="radio" id="cb1" name="cb1" value="1"><label>B. Falso</label><br>
 
-<h1 align="center">Reglas de B</h1>	
-<p>
-	1. Los sonidos br y bl. Delante de una r o de una l, el sonido siempre se escribe con b.
-Ejemplo: bravo, blanco, equilibrio, niebla, tableta.
-</p>
-<p>
-	2. Las terminaciones regulares de verbos en pretérito imperfecto son ba, bas, ba, bamos, bais, ban. Esta es una falta de ortografía frecuente en los niños.
-Ejemplo: yo jugaba, tú estabas de vacaciones, mi abuela entraba, nosotros hablábamos, vosotros os amabais, ellos iban al mercado.
-</p>
-<p>
-	3. Los verbos terminados en bir llevan una b, excepto hervir, servir y vivir y sus derivados –convivir, bienvivir, malvivir, sobrevivir...
-</p>
-<h1 align="center">Reglas de V</h1>
-<p>
-	1. Los nombres y adjetivos terminados en ivo o iva llevan una v.
-Ejemplo: cultivo, abusivo, vomitivo, activo, conflictivo…
-Excepciones: arriba, recibo, escriba, criba, diatriba, estiba, giba, jaiba, amibo, catibo, estribo y gálibo.
-</p>
-<p>
-	2. Las palabras en dv se escriben con v.
-Ejemplo: advertencia, adviento, advenir, adversario…
-</p>
-<p>
-	3. Las palabras terminadas en vor o vora se escriben con v.
-Ejemplo: carnívoro, herbívoro, pólvora….
-</p>
-<a href="byvp.php">
-	<button type="input" class="form-control btn btn-primary submit px-3" name="btn" >Comprobación</button>
 
-</a>
+
+<p>2. Mario y Arturo son amigos.</p>
+<input style = "width:5%" type="radio" id="cb2" name="cb2" value="1"><label>A. Verdadero</label><br>
+<input style = "width:5%" type="radio" id="cb2" name="cb2" value="0"><label>B. Falso</label><br>
+
+<p>3. Ana y valeria salieron. </p>
+<input style = "width:5%" type="radio" id="cb3" name="cb3" value="0"><label>A. Verdadero.</label><br>
+<input style = "width:5%" type="radio" id="cb3" name="cb3" value="1"><label>B. Falso.</label><br>
+<a href="pr.php"><button type="input" class="form-control btn btn-primary submit px-3" name="btn">Revisar</button></a>
+ </form>
 </nav>
-
-
 </body>
-
 </html>

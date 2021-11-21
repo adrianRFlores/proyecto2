@@ -48,37 +48,30 @@
 	left: 50%;
 	text-align: center;
 	color: white;">
+	<form action="compr1.php" method="POST">
+<h1 align="center">Comprobación:</h1>	
+<nav>
+<h1 align="center">Escriba la palabra de la manera correcta</h1>	
+<p>1.  kilómetro---------quilómetro</p>
+<p>
+<input type="text" name="r1" width="10">
+</p>
+<p>
+	2. kasa---------casa
+</p>
+<p><input type="text" name="r2" width="10"></p>
+<p>
+	3. karma---------carma
+</p>
+<p><input type="text" name="r3" width="10"></p>
 
-<h1 align="center">Reglas de B</h1>	
-<p>
-	1. Los sonidos br y bl. Delante de una r o de una l, el sonido siempre se escribe con b.
-Ejemplo: bravo, blanco, equilibrio, niebla, tableta.
-</p>
-<p>
-	2. Las terminaciones regulares de verbos en pretérito imperfecto son ba, bas, ba, bamos, bais, ban. Esta es una falta de ortografía frecuente en los niños.
-Ejemplo: yo jugaba, tú estabas de vacaciones, mi abuela entraba, nosotros hablábamos, vosotros os amabais, ellos iban al mercado.
-</p>
-<p>
-	3. Los verbos terminados en bir llevan una b, excepto hervir, servir y vivir y sus derivados –convivir, bienvivir, malvivir, sobrevivir...
-</p>
-<h1 align="center">Reglas de V</h1>
-<p>
-	1. Los nombres y adjetivos terminados en ivo o iva llevan una v.
-Ejemplo: cultivo, abusivo, vomitivo, activo, conflictivo…
-Excepciones: arriba, recibo, escriba, criba, diatriba, estiba, giba, jaiba, amibo, catibo, estribo y gálibo.
-</p>
-<p>
-	2. Las palabras en dv se escriben con v.
-Ejemplo: advertencia, adviento, advenir, adversario…
-</p>
-<p>
-	3. Las palabras terminadas en vor o vora se escriben con v.
-Ejemplo: carnívoro, herbívoro, pólvora….
-</p>
-<a href="byvp.php">
+</form>
+
+<a href="comr2.php">
 	<button type="input" class="form-control btn btn-primary submit px-3" name="btn" >Comprobación</button>
 
 </a>
+
 </nav>
 
 
