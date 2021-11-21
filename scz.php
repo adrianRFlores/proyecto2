@@ -48,18 +48,21 @@
 	left: 50%;
 	text-align: center;
 	color: white;">
-<h1 align="center">Reglas ortográficas</h1>	
-<nav>
 
-<a href="com.php">
-<p><a href="byv.php">Reglas de la B y V </a><p/>
-<p><a href="mayus.php">Reglas de uso de mayúsculas </a></p>
-<a href="k.php">Reglas de uso de la k </a>
+<h1 align="center">Reglas de uso de S, C y Z</h1>	
 <p>
-	<a href="tilde.php">Reglas de uso de la tílde </a></p>
-<p><a href="sp.php">Signos de puntuación </a></p>
-<p><a href="scz.php">Reglas de S, C y Z </a>
+	1. Aquellas palabras que termina en z y se cambia a plural, se escriben con “c”. Ejemplos: lápiz- lápices o luz-luces.
 </p>
+<p>
+	2. Palabras que terminan en “sivo” como intensivo o antidepresivo, con algunas excepciones como nocivo  y lascivo.
+</p>
+<p>
+	3. La letra z, se utiliza cuando las palabras terminan en azo, como balazo.
+</p>
+
+<a href="sczp.php">
+	<button type="input" class="form-control btn btn-primary submit px-3" name="btn" >Comprobación</button>
+
 </a>
 </nav>
 
