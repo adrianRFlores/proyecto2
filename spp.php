@@ -1,11 +1,12 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-	<title>La invitación de la señora araña</title>
+	<title>Comprobación lectora la invitación de la señora araña</title>
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 </head>
 <body class="img" style="background-image: url(images/cuentos.jpg);">
+	
 	<nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #000000;">
       	<div class="container">
 	        <a class="navbar-brand" href="MenuUsuario.php">
@@ -39,31 +40,32 @@
       	</div>
     </nav>
 <nav style="position: absolute;
-	margin: 270px auto 0;
+	margin: 300px auto 0;
 	width: 700px;
 	background: #191919;
 	transform: translate(-50%,-50%);
 	padding: 40px;
 	top: 30%;
 	left: 50%;
-	text-align: center;
+	text-align: left;
 	color: white;">
-<h1 align="center">Reglas ortográficas</h1>	
-<nav>
+<h1 align="center">Seleccione si la oración utiliza de forma correcta los signos de puntuación:</h1>
+<form action="pr.php" method="POST">
+<p>1. Me dijo Juan, el director del colegio, que la profesora está enferma </p>
+<input style = "width:5%" type="radio" id="cb1" name="cb1" value="0"><label>A. Verdadero</label><br>
+<input style = "width:5%" type="radio" id="cb1" name="cb1" value="1"><label>B. Falso</label><br>
 
-<a href="com.php">
-<p><a href="byv.php">Reglas de la B y V </a><p/>
-<p><a href="mayus.php">Reglas de uso de mayúsculas </a></p>
-<a href="k.php">Reglas de uso de la k </a>
-<p>
-	<a href="tilde.php">Reglas de uso de la tílde </a></p>
-<p><a href="sp.php">Signos de puntuación </a></p>
-<p><a href="#">Reglas de S, C y Z </a>
-</p>
-</a>
+
+
+<p>2. Agregue a la preparación cinco huevos, previamente batidos, y mezcle con suavidad.</p>
+<input style = "width:5%" type="radio" id="cb2" name="cb2" value="1"><label>A. Verdadero</label><br>
+<input style = "width:5%" type="radio" id="cb2" name="cb2" value="0"><label>B. Falso</label><br>
+
+<p>3. Ese barrio según mi vecina era muy peligroso. </p>
+<input style = "width:5%" type="radio" id="cb3" name="cb3" value="0"><label>A. Verdadero.</label><br>
+<input style = "width:5%" type="radio" id="cb3" name="cb3" value="1"><label>B. Falso.</label><br>
+<a href="pr.php"><button type="input" class="form-control btn btn-primary submit px-3" name="btn">Revisar</button></a>
+ </form>
 </nav>
-
-
 </body>
-
 </html>

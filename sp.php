@@ -48,18 +48,21 @@
 	left: 50%;
 	text-align: center;
 	color: white;">
-<h1 align="center">Reglas ortográficas</h1>	
-<nav>
 
-<a href="com.php">
-<p><a href="byv.php">Reglas de la B y V </a><p/>
-<p><a href="mayus.php">Reglas de uso de mayúsculas </a></p>
-<a href="k.php">Reglas de uso de la k </a>
+<h1 align="center">Reglas de uso de signos de puntuación</h1>	
 <p>
-	<a href="tilde.php">Reglas de uso de la tílde </a></p>
-<p><a href="sp.php">Signos de puntuación </a></p>
-<p><a href="#">Reglas de S, C y Z </a>
+	1. 1. Se utiliza el punto y coma para separar las oraciones de un periodo, cuando en medio de ellas ya se han utilizado comas.
 </p>
+<p>
+	2. Se utiliza el punto y coma para separar oraciones sintácticamente (ordenadamente, estructuralmente) independientes, entre las que existe una estrecha relación semántica (de significado), por ejemplo, de causa y efecto o de hecho y consecuencia (Diccionario panhispánico de dudas, 2005), así como también, en medio de aquellas oraciones en las que la segunda explica, amplía, justifica y aclara, la primera.
+</p>
+<p>
+	3. Se escribe punto y coma antes de los conectores adversativos, concesivos o consecutivos, como: pero, mas, aunque, sin embargo, por tanto, por consiguiente, es decir, por lo tanto…, cuando las oraciones que comienzan tienen cierta longitud.
+</p>
+
+<a href="spp.php">
+	<button type="input" class="form-control btn btn-primary submit px-3" name="btn" >Comprobación</button>
+
 </a>
 </nav>
 
