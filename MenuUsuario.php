@@ -39,12 +39,6 @@
 	    		</div>
       	</div>
     </nav>
-<?php
-	session_start();
-	ob_start();
-	$_SESSION['coduser'] = "";
-	$_SESSION['nomuser'] = "";
-?>
 <section class="ftco-section">
 	<div align="center">
 		<div class="row justify-content-center">

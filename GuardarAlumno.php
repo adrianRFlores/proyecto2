@@ -21,7 +21,7 @@ if (isset($_POST['btn']))
    	}
    	else
 	{
-	   	if($nombre != "" && $codigo != "" && $codtuto != "" && $contra != "" && $contra2)
+	   	if($nombre != "" && $codigo != "" && $codtuto != "" && $contra != "" && $contra2 != "")
 	   	{
 	   		$cons= "SELECT CodigoUsuario from usuario";
 	   		$x1 = mysqli_query($cone, $cons);

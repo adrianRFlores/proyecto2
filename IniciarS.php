@@ -97,7 +97,7 @@ class MainLogin
 					if ($f3 == 'Administrador')
 					{
 						echo "<script>alert('Bienvenido ".$a5['Nombre']." (Administrador)');
-						window.location.replace('Administrador.php');
+						window.location.replace('MenuAdmin.php');
 						</script>";
 					}
 					else
@@ -105,7 +105,7 @@ class MainLogin
 						if ($f3 == 'Maestro')
 						{
 							echo "<script>alert('Bienvenido ".$a5['Nombre']." (Maestro)');
-							window.location.replace('Maestro.php');
+							window.location.replace('#');
 							</script>";
 						}
 						else
