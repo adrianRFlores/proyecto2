@@ -48,33 +48,22 @@
 	left: 50%;
 	text-align: center;
 	color: white;">
-	<form action="compr1.php" method="POST">
-<h1 align="center">Comprobación:</h1>	
-<nav>
-<h1 align="center">Escriba la palabra de la manera correcta</h1>	
-<p>1.  ballena---------vallena</p>
-<p>
-<input type="text" name="r1" width="10">
-</p>
-<p>
-	2. pavo---------pabo
-</p>
-<p><input type="text" name="r2" width="10"></p>
-<p>
-	3. barro---------varro
-</p>
-<p><input type="text" name="r3" width="10"></p>
-
+<form action="compr1.php" method="POST">
+	<h1 align="center">Comprobación:</h1>	
+	<nav>
+		<h1 align="center">Escriba la palabra de la manera correcta</h1>	
+		<p>1.  ballena -- o -- vallena</p>
+		<p><input type="text" class="form-control" name="r1" width="10"></p>
+		<p>2. pavo -- o -- pabo</p>
+		<p><input type="text" class="form-control" name="r2" width="10"></p>
+		<p>3. barro -- o -- varro</p>
+		<p><input type="text" class="form-control" name="r3" width="10"></p>
+	</nav>
 </form>
 
-<a href="comr1.php">
+<a href="compr1.php">
 	<button type="input" class="form-control btn btn-primary submit px-3" name="btn" >Comprobación</button>
-
 </a>
-
 </nav>
-
-
 </body>
-
 </html>
