@@ -16,7 +16,7 @@ background-size: 100% 100%">
 			<table>
 				<tr>
 					<td>
-						<a href="Registro.php">
+						<a href="Login.php">
 							<img src="Images/Logo.png" style="border-radius: 15px;"  height="100"/>
 						</a>
 					</td>
@@ -30,6 +30,10 @@ background-size: 100% 100%">
 			     				<select name="selec1" class="form-control">
 							<option value="" class="form-control" style=" color: #000 !important;">Institutos...</option>
 							<?php
+								session_start();
+								ob_start();
+								$_SESSION['instituto'] = "";
+
 								$usuario = "root";
 								$clave = "";
 								$servidor = "localhost";
@@ -37,15 +41,20 @@ background-size: 100% 100%">
 
 					  			$cone = mysqli_connect($servidor, $usuario, $clave, $base);
 					  			
-					  			$query = "SELECT * from institutos";
-					  			echo "<script>
+					  			$query = "SELECT CodigoInstituto, NombreInstituto from institutos";
+					  			/*echo "<script>
 									alert(".$query.");
 									</script>";
+								echo "<script>
+									alert(".$x['CodigoInstituto'].");
+									</script>";*/
 					  			$q = mysqli_query($cone, $query);
 								
-					 			while ($x = mysqli_fetch_array($q))
-
-					  				echo "<option style='color: black;' value='".$x['CodigoInstituto']."'>".$x['NombreInstituto']."</option>";
+					 			while ($x = mysqli_fetch_array($q)){
+									echo "<option style='color: #000;' value='".$x['CodigoInstituto']."'>".$x['NombreInstituto']."</option>";
+									/*
+					  				echo "<option style='color: #000;' value=''>".$x['CodigoInstituto']."</option>";*/
+					  			}
 							?>
 							</select>
 						</div>
@@ -64,14 +73,15 @@ background-size: 100% 100%">
 <?php
 	if (isset($_POST['btn1']))
 	{
-		session_start();
-		ob_start();
-		$_SESSION['instituto'] = "";
 
-		$inst=$_POST['selec1'];
+		$inst = $_POST['selec1'];
+		$_SESSION['instituto'] = $inst;
+		/*echo "<script>
+			alert('hola--------- ".$_SESSION['instituto']."');
+			</script>";*/
+
 		if($inst != "")
-		{
-			$_SESSION['instituto'] = $inst;
+		{								
 			echo"<script>window.location.replace('Registro.php');</script>";
 		}
 		else
@@ -81,7 +91,6 @@ background-size: 100% 100%">
 				</script>";
 		}
 	}
-		
 ?>
 </body>
 </html>
