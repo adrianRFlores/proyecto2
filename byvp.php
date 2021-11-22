@@ -59,11 +59,8 @@
 		<p>3. barro -- o -- varro</p>
 		<p><input type="text" class="form-control" name="r3" width="10"></p>
 	</nav>
-</form>
-
-<a href="compr1.php">
 	<button type="input" class="form-control btn btn-primary submit px-3" name="btn" >Comprobación</button>
-</a>
+</form>
 </nav>
 </body>
 </html>

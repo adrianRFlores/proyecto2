@@ -49,8 +49,43 @@
 	left: 50%;
 	text-align: left;
 	color: white;">
-<h1 align="center">Resultados:</h1>
-<img src="0.png" alt="100" height="500" width="500"align="center">
+<!--<h1 align="center">Resultados:</h1>
+<img src="0.png" alt="100" height="500" width="500"align="center">-->
+<section class="ftco-section">
+	<div align="center">
+		<div class="row justify-content-center">
+			<div class="col-md-6 col-lg-4">
+				<div class="login-wrap p-0">
+		      		<font size="6" color="white">Obtuvo una nota de </font><br>
+		      	</div>
+		      </div>
+		</div>
+	</div>
+	<table style="margin: 0 auto;">
+		<tr>
+			<td>
+				<table>
+					<tr>
+						<td>
+							<br>
+						</td>
+					</tr>
+					<tr>
+						<td align="center" width="400">
+							<a href="MenuPronunciacion.php">
+							<img src="images/0.png" style="border-radius: 15px;" height="250"/></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<br>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</section>
 </nav>
 </body>
 </html>

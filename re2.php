@@ -6,7 +6,6 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 </head>
 <body class="img" style="background-image: url(images/cuentos.jpg);">
-	
 	<nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #000000;">
       	<div class="container">
 	        <a class="navbar-brand" href="MenuUsuario.php">
@@ -49,8 +48,44 @@
 	left: 50%;
 	text-align: left;
 	color: white;">
-<h1 align="center">Resultados:</h1>
-<img src="66.png" alt="100" height="500" width="500"align="center">
+<!--<h1 align="center">Resultados:</h1>
+<img src="66.png" alt="100" height="500" width="500"align="center">-->
+<section class="ftco-section">
+	<div align="center">
+		<div class="row justify-content-center">
+			<div class="col-md-6 col-lg-4">
+				<div class="login-wrap p-0">
+		      		<font size="6" color="white">Obtuvo una nota de </font><br>
+		      	</div>
+		      </div>
+		</div>
+	</div>
+	<table style="margin: 0 auto;">
+		<tr>
+			<td>
+				<table>
+					<tr>
+						<td>
+							<br>
+						</td>
+					</tr>
+					<tr>
+						<td align="center" width="400">
+							<a href="MenuPronunciacion.php">
+							<img src="images/66.png" style="border-radius: 15px;" height="250"/></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<br>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</section>
+</nav>
 </nav>
 </body>
 </html>
