@@ -1,7 +1,7 @@
  <!DOCTYPE html>
 <html>
 <head>
-	<title>La invitación de la señora araña</title>
+	<title>La caperucita roja</title>
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 </head>
@@ -69,7 +69,7 @@ En cuanto dijo esto el lobo se lanzó sobre Caperucita y se la comió también. 
 </p>
 <p></p>
 
-<a href="com.php">
+<a href="comp2.php">
 	<button type="input" class="form-control btn btn-primary submit px-3" name="btn" >Comprobación</button>
 
 </a>
