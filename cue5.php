@@ -1,7 +1,7 @@
  <!DOCTYPE html>
 <html>
 <head>
-	<title>La invitación de la señora araña</title>
+	<title>Patito feo</title>
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 </head>
@@ -65,7 +65,7 @@ Pasaron los días y todos los animales de la granja se burlaban de él.
 Finalmente, llegó la primavera. El patito feo vio a una familia de cisnes nadando en el estanque y quiso acercárseles. Pero recordó cómo todos se burlaban de él y agachó la cabeza avergonzado. Cuando miró su reflejo en el agua se quedó asombrado. Él no era un patito feo, sino un apuesto y joven cisne. Ahora sabía por qué se veía tan diferente a sus hermanos y hermanas. ¡Ellos eran patitos, pero él era un cisne! Feliz, nadó hacia su familia.
 </p>
 
-<a href="com.php">
+<a href="comp5.php">
 	<button type="input" class="form-control btn btn-primary submit px-3" name="btn" >Comprobación</button>
 
 </a>

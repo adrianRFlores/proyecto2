@@ -1,7 +1,7 @@
  <!DOCTYPE html>
 <html>
 <head>
-	<title>La caperucita roja</title>
+	<title>La invitación de la señora araña</title>
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 </head>
@@ -48,28 +48,19 @@
 	left: 50%;
 	text-align: center;
 	color: white;">
-<h1 align="center">Caperucita roja</h1>	
-<p>
-	Había una vez una dulce niña que quería mucho a su madre y a su abuela. Les ayudaba en todo lo que podía y como era tan buena el día de su cumpleaños su abuela le regaló una caperuza roja. Como le gustaba tanto e iba con ella a todas partes, pronto todos empezaron a llamarla Caperucita roja.
 
-Un día la abuela de Caperucita, que vivía en el bosque, enfermó y la madre de Caperucita le pidió que le llevara una cesta con una torta y un tarro de mantequilla. Caperucita aceptó encantada.
+<h1 align="center">Reglas de uso de signos de puntuación</h1>	
+<p>
+	1. 1. Se utiliza el punto y coma para separar las oraciones de un periodo, cuando en medio de ellas ya se han utilizado comas.
 </p>
 <p>
-El lobo mandó a Caperucita por el camino más largo y llegó antes que ella a casa de la abuelita. De modo que se hizo pasar por la pequeña y llamó a la puerta. Aunque lo que no sabía es que un cazador lo había visto llegar.
+	2. Se utiliza el punto y coma para separar oraciones sintácticamente (ordenadamente, estructuralmente) independientes, entre las que existe una estrecha relación semántica (de significado), por ejemplo, de causa y efecto o de hecho y consecuencia (Diccionario panhispánico de dudas, 2005), así como también, en medio de aquellas oraciones en las que la segunda explica, amplía, justifica y aclara, la primera.
 </p>
 <p>
-	La pequeña se entretuvo en el bosque cogiendo avellanas y flores y por eso tardó en llegar un poco más. Al llegar llamó a la puerta.
+	3. Se escribe punto y coma antes de los conectores adversativos, concesivos o consecutivos, como: pero, mas, aunque, sin embargo, por tanto, por consiguiente, es decir, por lo tanto…, cuando las oraciones que comienzan tienen cierta longitud.
+</p>
 
-- ¿Quién es?, contestó el lobo tratando de afinar su voz
-- Soy yo, Caperucita. Te traigo una torta y un tarrito de mantequilla.
-- Qué bien hija mía. Pasa, pasa
-</p>
-<p>
-En cuanto dijo esto el lobo se lanzó sobre Caperucita y se la comió también. Su estómago estaba tan lleno que el lobo se quedó dormido.
-</p>
-<p></p>
-
-<a href="comp2.php">
+<a href="spp.php">
 	<button type="input" class="form-control btn btn-primary submit px-3" name="btn" >Comprobación</button>
 
 </a>

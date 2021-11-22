@@ -1,11 +1,12 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-	<title>La caperucita roja</title>
+	<title>Comprobación lectora la invitación de la señora araña</title>
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 </head>
 <body class="img" style="background-image: url(images/cuentos.jpg);">
+	
 	<nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #000000;">
       	<div class="container">
 	        <a class="navbar-brand" href="MenuUsuario.php">
@@ -39,43 +40,32 @@
       	</div>
     </nav>
 <nav style="position: absolute;
-	margin: 270px auto 0;
+	margin: 300px auto 0;
 	width: 700px;
 	background: #191919;
 	transform: translate(-50%,-50%);
 	padding: 40px;
 	top: 30%;
 	left: 50%;
-	text-align: center;
+	text-align: left;
 	color: white;">
-<h1 align="center">Caperucita roja</h1>	
-<p>
-	Había una vez una dulce niña que quería mucho a su madre y a su abuela. Les ayudaba en todo lo que podía y como era tan buena el día de su cumpleaños su abuela le regaló una caperuza roja. Como le gustaba tanto e iba con ella a todas partes, pronto todos empezaron a llamarla Caperucita roja.
+<h1 align="center">Seleccione si la oración utiliza de forma correcta las mayúsculas:</h1>
+<form action="pr.php" method="POST">
+<p>1. Ese Carro es rojo. </p>
+<input style = "width:5%" type="radio" id="cb1" name="cb1" value="0"><label>A. Verdadero</label><br>
+<input style = "width:5%" type="radio" id="cb1" name="cb1" value="1"><label>B. Falso</label><br>
 
-Un día la abuela de Caperucita, que vivía en el bosque, enfermó y la madre de Caperucita le pidió que le llevara una cesta con una torta y un tarro de mantequilla. Caperucita aceptó encantada.
-</p>
-<p>
-El lobo mandó a Caperucita por el camino más largo y llegó antes que ella a casa de la abuelita. De modo que se hizo pasar por la pequeña y llamó a la puerta. Aunque lo que no sabía es que un cazador lo había visto llegar.
-</p>
-<p>
-	La pequeña se entretuvo en el bosque cogiendo avellanas y flores y por eso tardó en llegar un poco más. Al llegar llamó a la puerta.
 
-- ¿Quién es?, contestó el lobo tratando de afinar su voz
-- Soy yo, Caperucita. Te traigo una torta y un tarrito de mantequilla.
-- Qué bien hija mía. Pasa, pasa
-</p>
-<p>
-En cuanto dijo esto el lobo se lanzó sobre Caperucita y se la comió también. Su estómago estaba tan lleno que el lobo se quedó dormido.
-</p>
-<p></p>
 
-<a href="comp2.php">
-	<button type="input" class="form-control btn btn-primary submit px-3" name="btn" >Comprobación</button>
+<p>2. Mario y Arturo son amigos.</p>
+<input style = "width:5%" type="radio" id="cb2" name="cb2" value="1"><label>A. Verdadero</label><br>
+<input style = "width:5%" type="radio" id="cb2" name="cb2" value="0"><label>B. Falso</label><br>
 
-</a>
+<p>3. Ana y valeria salieron. </p>
+<input style = "width:5%" type="radio" id="cb3" name="cb3" value="0"><label>A. Verdadero.</label><br>
+<input style = "width:5%" type="radio" id="cb3" name="cb3" value="1"><label>B. Falso.</label><br>
+<a href="pr.php"><button type="input" class="form-control btn btn-primary submit px-3" name="btn">Revisar</button></a>
+ </form>
 </nav>
-
-
 </body>
-
 </html>

@@ -1,7 +1,7 @@
  <!DOCTYPE html>
 <html>
 <head>
-	<title>La caperucita roja</title>
+	<title>La invitación de la señora araña</title>
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 </head>
@@ -48,28 +48,19 @@
 	left: 50%;
 	text-align: center;
 	color: white;">
-<h1 align="center">Caperucita roja</h1>	
-<p>
-	Había una vez una dulce niña que quería mucho a su madre y a su abuela. Les ayudaba en todo lo que podía y como era tan buena el día de su cumpleaños su abuela le regaló una caperuza roja. Como le gustaba tanto e iba con ella a todas partes, pronto todos empezaron a llamarla Caperucita roja.
 
-Un día la abuela de Caperucita, que vivía en el bosque, enfermó y la madre de Caperucita le pidió que le llevara una cesta con una torta y un tarro de mantequilla. Caperucita aceptó encantada.
+<h1 align="center">Reglas de K</h1>	
+<p>
+	1. Se usa sólo en palabras procedentes de otras lenguas en las que se ha intentado respetar la ortografía original.
 </p>
 <p>
-El lobo mandó a Caperucita por el camino más largo y llegó antes que ella a casa de la abuelita. De modo que se hizo pasar por la pequeña y llamó a la puerta. Aunque lo que no sabía es que un cazador lo había visto llegar.
+	2. En la raíz: kilo- = 'mil' → kilogramo, kilómetro, kilovatio, kilobytes.
 </p>
 <p>
-	La pequeña se entretuvo en el bosque cogiendo avellanas y flores y por eso tardó en llegar un poco más. Al llegar llamó a la puerta.
+	3. Algunas palabras se pueden escribir con k, con c o con q.
+</p>
 
-- ¿Quién es?, contestó el lobo tratando de afinar su voz
-- Soy yo, Caperucita. Te traigo una torta y un tarrito de mantequilla.
-- Qué bien hija mía. Pasa, pasa
-</p>
-<p>
-En cuanto dijo esto el lobo se lanzó sobre Caperucita y se la comió también. Su estómago estaba tan lleno que el lobo se quedó dormido.
-</p>
-<p></p>
-
-<a href="comp2.php">
+<a href="kp.php">
 	<button type="input" class="form-control btn btn-primary submit px-3" name="btn" >Comprobación</button>
 
 </a>
