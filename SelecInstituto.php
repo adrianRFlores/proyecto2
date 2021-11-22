@@ -73,7 +73,6 @@ background-size: 100% 100%">
 <?php
 	if (isset($_POST['btn1']))
 	{
-
 		$inst = $_POST['selec1'];
 		$_SESSION['instituto'] = $inst;
 		/*echo "<script>

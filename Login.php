@@ -48,5 +48,18 @@
   <script src="js/popper.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/main.js"></script>
+  <footer>
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-sm-6 text-left">
+              <br><br><br><br><br>
+              <h6>© 2021 Aprende. Todos los derechos reservados</h6>
+            </div>
+          </div>
+        </div>
+    </section>
+   
+    </footer>
 	</body>
 </html>
