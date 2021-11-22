@@ -55,7 +55,7 @@ class MainLogin
 				{
 					echo "<script>
 					alert('La contraseña es incorrecta');
-					window.location.replace('#');
+					window.location.replace('iniciarS.php');
 					</script>";
 				}
 				else
